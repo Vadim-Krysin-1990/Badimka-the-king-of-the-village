@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Бадимка: Владыка Королевства</title>
+  <script type="module" crossorigin src="./assets/badimka.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="top">
+  <div id="stats" class="panel"></div>
+  <div id="questline" class="panel"></div>
+</div>
+<div id="left">
+  <div class="panel" id="mmwrap"><canvas id="mm" width="128" height="128"></canvas><div id="datelab"></div></div>
+  <div class="panel" id="timec"></div>
+  <div class="panel" id="menubtns"></div>
+</div>
+<div id="build" class="panel">
+  <div id="cats"></div>
+  <div id="items"></div>
+  <div id="bhint"></div>
+</div>
+<div id="info" class="panel"></div>
+<div id="toasts"></div>
+<div id="modal"><div class="mwin panel" id="mwin"></div></div>
+<div id="err"></div>
+<button id="to-menu-btn" class="btn sm">📜 Меню</button>
+<div id="mainmenu">
+  <h1 id="mm-title">Бадимка</h1>
+  <div id="mm-subtitle">Владыка Королевства</div>
+  <div id="mm-buttons">
+    <button class="btn primary" data-mm="new">🏰 Новая игра</button>
+    <button class="btn" data-mm="continue" disabled>📂 Продолжить</button>
+    <button class="btn" data-mm="help">📖 Как править</button>
+    <button class="btn" data-mm="settings">🔊 Настройки</button>
+  </div>
+  <div id="mm-version">v0.3 — изометрический сити-билдер</div>
+</div>
+</body>
+</html>
